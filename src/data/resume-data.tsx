@@ -52,17 +52,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "The Tech Square",
-      link: "https://thetechsquare.com/",
-      badges: ["On site"],
-      title: "Frontend developer",
-      logo: ParabolLogo,
-      start: "2023",
-      end: "2024",
-      description:
-        "Worked on the superadmin dashboard for US based event organizing company. Implemented payment funtionlities for ticket payment, Used React TypeScript React query Zustand for state management",
-    },
-    {
       company: "Upwork",
       link: "https://upwork.com",
       badges: ["Remote"],

@@ -100,6 +100,93 @@ export default function Page() {
         </Section>
         <Section>
           <h2 className="text-xl font-bold">Work Experience</h2>
+          <Card>
+            <CardHeader>
+              <div className="flex items-center justify-between gap-x-2 text-base">
+                <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                  <a
+                    className="hover:underline"
+                    href="https://thetechsquare.com/"
+                  >
+                    The Tech Square
+                  </a>
+
+                  <span className="inline-flex gap-x-1">
+                    <Badge variant="secondary" className="align-middle text-xs">
+                      On site
+                    </Badge>
+                  </span>
+                </h3>
+                <div className="text-sm tabular-nums text-gray-500">
+                  2023 - 2024
+                </div>
+              </div>
+
+              <h4 className="font-mono text-sm leading-none">
+                React js Developer
+              </h4>
+            </CardHeader>
+            <CardContent className="mt-2 text-xs">
+              <h5 className="font-mono text-sm leading-none">
+                Key Responsibilities:{" "}
+              </h5>
+              <ul>
+                <li>
+                  • Crafted an interactive React JS dashboard with TypeScript
+                  for streamlined event management, empowering Bamrec (US based
+                  event management company) admins to visualize and manage
+                  events, event organizers, event attendees, and associated
+                  revenue.
+                </li>
+                <li>
+                  • Championed API development, creating new APIs tailored to
+                  frontend needs, ensuring seamless data flow and functionality.
+                </li>
+                <li>
+                  • Delivered critical modules:
+                  <li className="pl-4">
+                    ○ Event Details: Equipped admins with comprehensive insights
+                    into attendee lists, event revenue, attendee management, and
+                    event enrollment functionalities.
+                  </li>
+                  <li className="pl-4">
+                    ○ Attendee Profiles: Enabled detailed attendee profiling and
+                    family connections within the platform.
+                  </li>
+                </li>
+                <li className="pl-4">
+                  ○ Leveraged advanced tech stack: Effectively utilized React,
+                  TypeScript, React Query, Redux, Stripe, Node JS, Fastify, and
+                  MongoDB to ensure optimal performance, scalability, and
+                  security.
+                </li>
+              </ul>
+
+              <h5 className="pt-2 font-mono text-sm leading-none">
+                Key Achievements:
+              </h5>
+              <ul>
+                <li>
+                  • Boosted revenue transparency: Provided real-time revenue
+                  insights, leading to improvement in financial tracking.
+                </li>
+                <li>
+                  • Streamlined attendee registration: Simplified enrollment
+                  processes, resulting in a rise in attendee participation.
+                </li>
+                <li>
+                  • Proactively addressed challenges: Solved complex frontend
+                  development problems, demonstrating strong problem-solving and
+                  adaptability.
+                </li>
+                <li>
+                  • Collaborated effectively: Worked closely with
+                  cross-functional teams, fostering positive communication and
+                  achieving shared goals.
+                </li>
+              </ul>
+            </CardContent>
+          </Card>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
